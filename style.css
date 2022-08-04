@@ -22,20 +22,16 @@ body {
 }
 
 nav {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 0;
+  padding: 8px 8rem;
   background-color: #3c567d;
   height: 4rem;
   gap: 4rem;
-  max-width: 96rem;
 }
 
 .header-logo {
-  margin-left: 2rem;
   flex: none;
   width: auto;
   /* margin-right: 16rem; */
@@ -48,6 +44,7 @@ nav {
 }
 
 ul {
+  flex: none;
   margin-right: 8rem;
   padding-left: auto;
   width: auto;
@@ -137,7 +134,7 @@ a,
 }
 
 button {
-  max-width: 120px;
+  max-width: 140px;
   flex: none;
   background-color: #3882f6;
   border: none;
@@ -260,11 +257,10 @@ h2 {
 }
 
 .cta-container button {
-  max-width: 124px;
+  max-width: 144px;
   border: 2px solid white;
-  margin-left: auto;
   margin-right: 8rem;
-  margin-left: 2rem;
+  margin-left: 8rem;
 }
 
 footer {
