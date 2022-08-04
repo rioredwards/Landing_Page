@@ -28,7 +28,8 @@ nav {
   padding: 8px 8rem;
   background-color: #3c567d;
   height: 4rem;
-  gap: 4rem;
+  gap: 8rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header-logo {
@@ -144,6 +145,11 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #f9faf8;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #2b6ce6;
 }
 
 .info {
@@ -173,16 +179,16 @@ button {
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  max-width: 24rem;
+  max-width: 28rem;
 }
 
 .card-img {
-  height: 16rem;
+  height: 20rem;
   width: auto;
-  border: 4px solid #1f2937;
   border-radius: 2rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-text {
@@ -205,7 +211,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .quote-text {
@@ -213,12 +219,12 @@ h2 {
   font-weight: 100;
   font-style: italic;
   color: #1f2937;
-  margin: 6rem 8rem 2rem;
+  margin: 6rem 8rem 0;
 }
 
 .quote-attribution {
   font-size: 20px;
-  margin: 1rem 8rem 4rem auto;
+  margin: 1rem 4rem 4rem 28rem;
 }
 
 .call-to-action {
@@ -231,11 +237,13 @@ h2 {
 .cta-container {
   background-color: #3882f6;
   width: 80rem;
+  min-width: 68rem;
   height: 12rem;
   border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cta-text {
